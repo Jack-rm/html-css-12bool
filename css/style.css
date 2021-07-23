@@ -12,18 +12,18 @@
     border: 1px solid black;
 }
 
-[class^="col"]>div{
+.col-xs-6>.row{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3px;
+}
+
+.col-xs-6>.row>div{
     background-color: #f07f80;
     height: 190px;
     line-height: 190px;
     border: 1px solid white;
     overflow: hidden;
-}
-
-.col-xs-6{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 3px;
 }
