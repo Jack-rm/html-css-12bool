@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class^="col"]{
+    background-color: pink;
+    text-align: center;
+    line-height: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+[class^="col"]>div{
+    background-color: #f07f80;
+    height: 190px;
+    line-height: 190px;
+    border: 1px solid white;
+    overflow: hidden;
+}
+
+.col-xs-6{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3px;
+}
