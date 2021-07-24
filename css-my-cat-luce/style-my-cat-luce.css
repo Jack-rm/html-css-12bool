@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class^="col"]{
+    background-color: white;
+    text-align: center;
+    border:1px solid rgb(216, 216, 216);
+}
+
+.col-xs-6>.row{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.col-xs-6>.row>div{
+    background-color: #f07f80;
+    height: 10px;
+    line-height: 10px;
+    border: 1px solid white;
+    overflow: hidden;
+}
+
+.black{
+    background-color: black;
+}
+
+.dark{
+    background-color: rgb(12, 12, 12);
+
+}
+
+.grey{
+    background-color: rgb(24, 24, 24);
+
+}
