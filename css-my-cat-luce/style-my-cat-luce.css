@@ -7,7 +7,6 @@
 [class^="col"]{
     background-color: white;
     text-align: center;
-    border:1px solid rgb(216, 216, 216);
 }
 
 .col-xs-6>.row{
@@ -17,11 +16,8 @@
     align-items: center;
 }
 
-.col-xs-6>.row>div{
-    background-color: #f07f80;
-    height: 10px;
-    line-height: 10px;
-    border: 1px solid white;
+.col-xs-4>.row>div{
+    height: 20px;
     overflow: hidden;
 }
 
@@ -30,11 +26,19 @@
 }
 
 .dark{
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(32, 32, 32);
 
 }
 
 .grey{
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(83, 83, 83);
 
+}
+
+.green{
+    background-color: rgb(181, 221, 0);
+}
+
+.pink{
+    background-color: rgb(251, 177, 189);
 }

@@ -55,6 +55,9 @@
 .col-xs-offset-11 {margin-left: calc((100% / 12) * 11);}
 .col-xs-offset-12 {margin-left: calc((100% / 12) * 12);}
 
+
+/*
+
 @media only screen and (min-width: 576px) {
 
     .container{
@@ -87,6 +90,8 @@
     .col-s-offset-11 {margin-left: calc((100% / 12) * 11);}
     .col-s-offset-12 {margin-left: calc((100% / 12) * 12);}
 }
+
+*/
 
 
 @media only screen and (min-width: 768px) {
@@ -122,6 +127,8 @@
     .col-md-offset-12 {margin-left: calc((100% / 12) * 12);}
 }
 
+/*
+
 @media only screen and (min-width: 992px) {
 
     .container {
@@ -154,3 +161,5 @@
     .col-lg-offset-11 {margin-left: calc((100% / 12) * 11);}
     .col-lg-offset-12 {margin-left: calc((100% / 12) * 12);}
 }
+
+*/
